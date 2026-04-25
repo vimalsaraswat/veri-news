@@ -1,0 +1,135 @@
+{
+  "regions": {
+    "india": {
+      "markers": [
+        " india ", " ncb ", "narcotics control bureau", " delhi ", " mumbai ",
+        " kolkata ", " bengaluru ", " hyderabad ", " chennai ", " pune ",
+        " ahmedabad ", " jaipur ", " lucknow ", " surat ", " kanpur ",
+        " rupee ", " crore ", " lakh ", " bjp ", " congress party ",
+        " lok sabha ", " rajya sabha ", " modi ", " pib ", " cbi ",
+        " enforcement directorate", " ed raid", " aam aadmi",
+        " cbse ", " icse ", " ncert ", " ugc ", " iit ", " iim ",
+        " isro ", " bcci ", " rbi ", " sebi ", " niti aayog",
+        " pradhan mantri", " rupees ", " paisa "
+      ],
+      "tld_patterns": [".in"],
+      "trusted_domains": [
+        "hindustantimes.com", "thehindu.com", "indianexpress.com",
+        "timesofindia.indiatimes.com", "ndtv.com", "pib.gov.in",
+        "ani.in", "news18.com", "theprint.in", "scroll.in",
+        "thewire.in", "livemint.com", "businessstandard.com",
+        "deccanherald.com", "tribuneindia.com"
+      ],
+      "exclude_false_positives": [
+        "indianapolis", "indiana ", "indian ocean", "indiana state",
+        "indian cricket team"
+      ]
+    },
+    "usa": {
+      "markers": [
+        " usa ", " united states", " u.s. ", " fbi ", " cia ", " nsa ",
+        " congress ", " senate ", " white house", " pentagon ",
+        " federal reserve", " nasdaq ", " nyse ", " cdc ", " fda ",
+        " dea ", " atf ", " nypd ", " lapd ", " washington dc",
+        " capitol hill", " supreme court", " treasury department"
+      ],
+      "tld_patterns": [".gov", ".mil"],
+      "trusted_domains": [
+        "apnews.com", "reuters.com", "nytimes.com", "washingtonpost.com",
+        "npr.org", "politifact.com", "factcheck.org", "cnn.com",
+        "abcnews.go.com", "nbcnews.com", "cbsnews.com", "usatoday.com"
+      ],
+      "exclude_false_positives": []
+    },
+    "uk": {
+      "markers": [
+        " uk ", " britain ", " england ", " scotland ", " wales ",
+        " london ", " parliament ", " prime minister", " nhs ",
+        "10 downing", " house of commons", " house of lords",
+        " met police", " scotland yard", " pound sterling",
+        " labour ", " conservative ", " tory "
+      ],
+      "tld_patterns": [".co.uk", ".gov.uk", ".ac.uk"],
+      "trusted_domains": [
+        "bbc.com", "bbc.co.uk", "theguardian.com", "thetimes.co.uk",
+        "telegraph.co.uk", "independent.co.uk", "channel4.com",
+        "sky.com", "mirror.co.uk", "dailymail.co.uk"
+      ],
+      "exclude_false_positives": []
+    },
+    "pakistan": {
+      "markers": [
+        " pakistan", " karachi", " lahore", " islamabad", " pti ",
+        " imran khan", " nawaz sharif", " army chief", " isi ",
+        " pmln", " pppp", " rupee ", " sindh ", " punjab ",
+        " khyber pakhtunkhwa"
+      ],
+      "tld_patterns": [".pk"],
+      "trusted_domains": [
+        "dawn.com", "geo.tv", "thenews.com.pk", "arynews.tv",
+        "express.pk", "samaa.tv"
+      ],
+      "exclude_false_positives": []
+    },
+    "australia": {
+      "markers": [
+        " australia", " sydney", " melbourne", " brisbane", " perth",
+        " adelaide", " afl ", " nrl ", " abc australia", " sbs ",
+        " parliament of australia", " asx ", " australian dollar",
+        " prime minister of australia", " labor party", " liberal party"
+      ],
+      "tld_patterns": [".com.au", ".gov.au", ".edu.au"],
+      "trusted_domains": [
+        "abc.net.au", "smh.com.au", "theaustralian.com.au",
+        "theguardian.com", "9news.com.au", "7news.com.au"
+      ],
+      "exclude_false_positives": []
+    },
+    "europe": {
+      "markers": [
+        " european union", " eu commission", " nato ", " berlin ",
+        " paris ", " rome ", " brussels ", " ecb ", " euro ",
+        " european parliament", " eurozone", " schengen"
+      ],
+      "tld_patterns": [".eu", ".de", ".fr", ".it", ".es", ".nl", ".be"],
+      "trusted_domains": [
+        "dw.com", "euronews.com", "politico.eu", "reuters.com",
+        "france24.com", "theguardian.com", "lemonde.fr", "spiegel.de"
+      ],
+      "exclude_false_positives": []
+    },
+    "canada": {
+      "markers": [
+        " canada", " toronto", " vancouver", " montreal", " ottawa",
+        " rcmp ", " prime minister trudeau", " parliament of canada",
+        " canadian dollar", " cbc ", " ontario ", " quebec ",
+        " british columbia"
+      ],
+      "tld_patterns": [".ca"],
+      "trusted_domains": [
+        "cbc.ca", "globalnews.ca", "thestar.com", "nationalpost.com",
+        "theglobeandmail.com"
+      ],
+      "exclude_false_positives": []
+    },
+    "china": {
+      "markers": [
+        " china", " beijing", " shanghai", " xi jinping", " ccp ",
+        " communist party of china", " people's liberation army",
+        " renminbi", " yuan ", " hong kong", " taiwan strait",
+        " politburo"
+      ],
+      "tld_patterns": [".cn"],
+      "trusted_domains": [
+        "reuters.com", "scmp.com", "caixin.com", "xinhua.net",
+        "cgtn.com"
+      ],
+      "exclude_false_positives": []
+    }
+  },
+  "global_trusted_domains": [
+    "reuters.com", "apnews.com", "bbc.com", "who.int", "un.org",
+    "aljazeera.com", "afp.com", "bloomberg.com", "economist.com",
+    "foreignpolicy.com", "ft.com"
+  ]
+}
